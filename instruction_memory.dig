@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>PN</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>quadratic_s</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00002,e3a01004,e3a02008,e3a03010,eb000000,e2800000,e00c0090,e00c0c91,e0010092,
+e08cc001,e08c0003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/hex and s files/quadratic_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="440" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>sum array_s</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e24dd014,e3a00000,e58d0000,e3a00004,e58d0004,e3a00008,
+e58d0008,e3a0000c,e58d000c,e3a00010,e58d0010,e1a0000d,e3a01005,eb000000,e2800000,
+e3a02000,e3a03000,e1530001,aa000004,e590c000,e082200c,e2800004,e2833001,eafffff8,
+e1a00002,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/hex and s files/sum_array_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>D</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>search_s</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e24dd014,e3a00000,e58d0000,e3a00004,e58d0004,e3a00008,
+e58d0008,e3a0000c,e58d000c,e3a00010,e58d0010,e1a0000d,e3a01000,e3a02005,e3a0300c,
+eb000000,e2800000,e24dd008,e58de000,e58d4004,ebffffff,e042c001,e1a0c0ac,e08cc001,
+e1a0c10c,e790400c,e1a0c12c,e1530004,ca000006,ba000001,e1a0000c,ea000007,e1a0200c,
+e2422001,ebffffed,ea000003,e1a0100c,e2811001,ebffffe9,eaffffff,e59d4004,e59de000,
+e28dd008,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/hex and s files/search_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>sort_s</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e24dd018,e3a00010,e58d0000,e3a00004,e58d0004,e3a00020,
+e58d0008,e3a00002,e58d000c,e3a00008,e58d0010,e1a0000d,e3a01005,eb000014,e2800000,
+e24dd008,e58d4000,e3a02001,e3a04000,e5903000,e1510002,da000008,e1a02102,e790c002,
+e1a02122,e153000c,aa000001,e1a0300c,e1a04002,e2822001,eafffff4,e1a00004,e59d4000,
+e28dd008,e12fff1e,e24dd018,e58de000,e58d4010,e58d5014,e3a02000,e1510002,da000020,
+e58d0004,e58d1008,e58d200c,e0411002,e1a02102,e0800002,e1a02122,ebffffdc,e1a03000,
+e59d0004,e59d1008,e59d200c,e0823003,e1520003,a00000f,e1a02102,e790c002,e1a02122,e1a03103,
+e7904003,e1a03123,e1a02102,e0825000,e5854000,e1a02122,e1a03103,e0835000,e585c000,
+e1a03123,e2822001,eaffffde,e2822001,eaffffdc,e1a00001,e59d5014,e59d4010,e59de000,
+e28dd018,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/hex and s files/sort_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>fact_s</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e3a00005,eb000000,e2800000,e24dd008,e58de000,e3500000,1a000001,e3a00001,
+ea000004,e58d0004,e2400001,ebfffff6,e59d1004,e0000091,e59de000,e28dd008,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/hex and s files/fact_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>search_s extra credit</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e24dd014,e3a00000,e58d0000,e3a00004,e58d0004,e3a00008,
+e58d0008,e3a0000c,e58d000c,e3a00010,e58d0010,e1a0000d,e3a01000,e3a02005,e3a0300d,
+eb000000,e2800000,e24dd008,e58de014,e58d4018,e1510002,da000001,e3e00000,ea000013,
+e042c001,e1a0c0ac,e08cc001,e1a0c10c,e790400c,e1a0c12c,e1530004,ca000007,ba000001,
+e1a0000c,ea000008,e1a0200c,e2422001,e12fff1e,ebffffe9,ea000003,e1a0100c,e2811001,
+ebffffe5,eaffffff,e59d4018,e59de014,e28dd008,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/hex and s files/search_sEC.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>and_s extra credit</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00001,e3a01000,e0000001,e2800000</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/hex and s files/and_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>or_s extra credit</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00001,e3a01000,e1800001,e2800000</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/hex and s files/or_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>xor_s extra credit</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00001,e3a01001,e0300001,e2800000</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/xor_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>test</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00001,e3a01002,e3a02000,e1020091,e2800000</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>/Users/Sophia/Desktop/junior/architecture/git/project06-sophialadwiniec/hex and s files/test.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="1360"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="440" y="320"/>
+      <p2 x="520" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="320"/>
+      <p2 x="1020" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="640"/>
+      <p2 x="520" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="1280"/>
+      <p2 x="540" y="1280"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="580"/>
+      <p2 x="1020" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="900"/>
+      <p2 x="760" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="520"/>
+      <p2 x="1020" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="520"/>
+      <p2 x="520" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="1160"/>
+      <p2 x="540" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="460"/>
+      <p2 x="1160" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="460"/>
+      <p2 x="1020" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="780"/>
+      <p2 x="740" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="400"/>
+      <p2 x="520" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="400"/>
+      <p2 x="1020" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="1040"/>
+      <p2 x="540" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1360"/>
+      <p2 x="540" y="1360"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="340"/>
+      <p2 x="1020" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="660"/>
+      <p2 x="720" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="280"/>
+      <p2 x="400" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="280"/>
+      <p2 x="520" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="600"/>
+      <p2 x="1020" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="920"/>
+      <p2 x="540" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1240"/>
+      <p2 x="540" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="540"/>
+      <p2 x="1020" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="540"/>
+      <p2 x="700" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="800"/>
+      <p2 x="520" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1120"/>
+      <p2 x="540" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="480"/>
+      <p2 x="1020" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="1380"/>
+      <p2 x="840" y="1380"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="420"/>
+      <p2 x="680" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="420"/>
+      <p2 x="1020" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="680"/>
+      <p2 x="520" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="360"/>
+      <p2 x="1020" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1000"/>
+      <p2 x="540" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="300"/>
+      <p2 x="1020" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="1260"/>
+      <p2 x="820" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="560"/>
+      <p2 x="1020" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="560"/>
+      <p2 x="520" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="880"/>
+      <p2 x="540" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="500"/>
+      <p2 x="1020" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="1140"/>
+      <p2 x="800" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="1400"/>
+      <p2 x="540" y="1400"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="440"/>
+      <p2 x="520" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="440"/>
+      <p2 x="1020" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="760"/>
+      <p2 x="520" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="380"/>
+      <p2 x="1020" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="1020"/>
+      <p2 x="780" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="140"/>
+      <p2 x="1040" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="280"/>
+      <p2 x="400" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="400"/>
+      <p2 x="400" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1240"/>
+      <p2 x="400" y="1360"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1120"/>
+      <p2 x="400" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1000"/>
+      <p2 x="400" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="880"/>
+      <p2 x="400" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="760"/>
+      <p2 x="400" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="640"/>
+      <p2 x="400" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="520"/>
+      <p2 x="400" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="360"/>
+      <p2 x="720" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="440"/>
+      <p2 x="800" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="380"/>
+      <p2 x="740" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="460"/>
+      <p2 x="820" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="220"/>
+      <p2 x="440" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="440"/>
+      <p2 x="440" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="320"/>
+      <p2 x="440" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="1280"/>
+      <p2 x="440" y="1400"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="1160"/>
+      <p2 x="440" y="1280"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="1040"/>
+      <p2 x="440" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="920"/>
+      <p2 x="440" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="800"/>
+      <p2 x="440" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="680"/>
+      <p2 x="440" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="560"/>
+      <p2 x="440" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="320"/>
+      <p2 x="680" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="400"/>
+      <p2 x="760" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="480"/>
+      <p2 x="840" y="1380"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="340"/>
+      <p2 x="700" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="420"/>
+      <p2 x="780" y="1020"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
